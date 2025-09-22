@@ -1,0 +1,424 @@
+/*home page start*/
+nav a{
+  text-decoration: none;
+  color: inherit;
+}
+nav img.icon{
+    width: 150px;
+}
+
+nav span p.title-chinese{
+    width: 100%;
+
+    font-size: 30px;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+}
+#nav-link {
+  font-size: 30px;
+}
+
+.nav-item{
+  font-size: 28px;
+}
+
+img{
+max-width: 100%;
+}
+video{
+  max-width: 100%;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+p,a ,input,label,textarea,span,ul,li{
+  font-family: "Open Sans", sans-serif;
+}
+
+#intro #carouselExampleDark{ /* 容器大小 */
+   max-height: 950px; 
+   position: relative;/* 使覆蓋層定位 */
+}
+
+#intro .overlay {
+  position: absolute;
+  max-height: 950px; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* 黑色，50%透明度 */
+  z-index: 1; /* 確保覆蓋層在圖片上方 */
+    }
+#intro .carousel-caption {
+    position: absolute; /* 使標題在覆蓋層之上 */
+    z-index: 2; /* 確保標題在覆蓋層之上 */
+    top: 680px;
+}
+
+
+#intro h2{
+    font-size: 45px;
+    font-weight: 500;
+    color: #ffffff;
+}
+#intro h1{
+  font-size: 50px;
+  font-weight: 500;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#promote-training{
+    background-image: url('../img/2.png');
+    background-size: cover; 
+    background-position: center; 
+    background-blend-mode: overlay; 
+    position: relative;
+  padding-top: 80px;
+}
+.col-md-12 .col-md-6 .col-md-4{
+  padding: 0px;
+}
+
+
+#promote-training h3{
+ line-height: 1.5;
+ margin-bottom: 40px;
+}
+
+#promote-training-img {
+    width: 100%;
+    height: 79%;
+    padding-left: 40px;
+}
+#promote-training-gif {
+padding-top: 21px;
+padding-bottom: 42px;
+height: 90%;
+}
+
+#promote-team{
+    background-image: url('../img/2.png');
+    background-size: cover; 
+    background-position: center; 
+    background-blend-mode: overlay; 
+    position: relative;
+      padding-top: 80px;
+      padding-bottom: 80px;
+}
+
+#promote-team h3{
+ line-height: 1.5;
+ margin-bottom: 40px;
+}
+
+#promote-team img {
+ width: 100%;
+ height: 90%;
+ padding-left: 40px;
+ padding-right: 7px;
+}
+
+#promote-team video {
+padding-top: 25px;
+width: 90%
+}
+
+#club-intro-img{
+    background-image: url("../img/club-intro-img.jpg");
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: overlay; 
+    height: 1000px; 
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    padding-bottom: 80px;
+}
+
+#club-intro-img .col-md-5 {
+    height: 1000px; 
+    padding: 20px; 
+}
+
+#club-intro-img h2{
+  width: 100%;
+  font-size: 85px;
+  font-weight: 1000;
+  font-weight: bold;
+  padding: 30px;
+  line-height: 1000px;
+  color: white;
+  padding: 10px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#club-intro{
+  padding: 80px;
+}
+
+.club-intro-icon{
+  width: 440px;
+  text-align: center;
+}
+.club-intro-text{
+  background-color: #FFFFFF73;
+    margin: 00px 00px 00px 00px;
+    padding: 40px 40px 20px 40px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.club-intro-text h3{
+    width: 100%;
+    overflow-wrap: break-word;
+    text-overflow: ellipsis;
+
+  }
+
+  
+#club-class-list {
+  background-image: url('../img/5564526.jpg');
+  background-size: cover;
+}
+
+
+#club-class-list .container{
+  background-color: rgb(80, 97, 122);
+}
+
+#club-class-list #img .col-md-4{
+  border: 1.5px solid black; 
+}
+
+#club-class-list h4{
+    padding: 10px;
+    color: aliceblue;
+    border: 1px solid  yellow;
+}
+
+#club-class-list #left-img1{
+    padding-top: 200px;
+}
+#club-class-list #mid-img1{
+    padding: 10px;
+}
+#club-class-list #right-img1{
+    padding: 10px;
+}
+
+#club-class-list #left-img2{
+    padding-top: 200px;
+}
+#club-class-list #mid-img2{
+    padding: 10px;
+}
+#club-class-list #right-img2{
+    padding-top: 200px;
+}
+
+#Sponsor #carouselExampleControls{
+    max-height: 350px;
+}
+#Sponsor span{
+  background-color: black;
+}
+
+#contact-us{
+    background-image: url("../img/intro_background2.jpg");
+    background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: overlay; 
+    height: 1000px; 
+    background-attachment: fixed; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+#contact-us .col-md-12 {
+    height: 1000px; 
+    padding: 20px; 
+}
+#contact-us h2{
+  position: absolute;
+  font-size: 85px;
+  font-weight: 1000;
+  font-weight: bold;
+  color: rgb(214, 177, 13);
+  line-height: 1000px;
+  padding: 10px;
+  overflow-wrap: break-word;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#contact-us .upper{
+    position: relative;
+}
+#contact-us .lower{
+    position: absolute;
+    top: 615px;
+    left: 110px;
+}
+
+#contact-us #icon{
+  width: 18%;
+}
+#contact-us .lower button {
+      background-color: #FFA500; /* 按鈕背景顏色 */
+      color: white; /* 按鈕文字顏色 */
+      padding: 15px 30px; /* 按鈕內邊距 */
+      border: none; /* 無邊框 */
+      border-radius: 5px; /* 圓角 */
+      font-size: 25px; /* 字體大小 */
+      cursor: pointer; /* 鼠標指針樣式 */
+      transition: background-color 0.3s; /* 漸變效果 */
+      margin-right: 10px;
+  }
+#contact-us .lower button:hover {
+      background-color: #00ff88b9; /* 懸停時的背景顏色 */
+  }
+#contact-us #fb-logo{
+  width: 80px;
+  margin-right: 10px;
+}
+#contact-us #ig-logo{
+  width: 95px;
+  margin-right: 10px;
+}
+#contact-us #yt-logo{
+  width: 115px;
+}
+
+footer{
+   background-color: rgb(129, 135, 218);
+}
+
+/*home page end*/
+/*club background page start*/
+#club-background {
+    padding-top: 80px;
+}
+#club-background p{
+  font-size: 24px;
+  font: bold;
+  padding-top: 20px;
+}
+#jokgu-intro{
+  padding-top: 80px;
+}
+#jokgu-intro p{
+  font-size: 24px;
+  font: bold;
+}
+#jokgu-intro img{
+  padding-top: 10px;
+}
+/*club background page end*/
+
+/*club structure page start*/
+#international-member{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  /*club structure page end*/
+
+  /*ContactUs page start*/
+#contact-us-text span{
+  font-size: 40px;
+}
+#contact-us-text img{
+  width: 100px;
+}
+/*ContactUs page end*/
+
+/*how to play page start*/
+#how-to-play{
+  padding-bottom: 80px;
+}
+#how-to-play .col-md-6{
+  padding: 40px;
+  border: 1px solid black;
+    background-color: rgb(206, 226, 255);
+}
+#competition-sample{
+  padding-bottom: 80px;
+}
+#jokgu-skill{
+  padding-bottom: 80px;
+}
+#jokgu-skill .col-md-4{
+  position: relative;
+  padding: 10px;
+}
+#jokgu-skill .inner-text{
+  position: absolute;
+    top: 246px;
+    left: 165px;
+}
+#jokgu-skill h5{
+  color: #ff4b4b;
+  font: bold;
+}
+/*how to play page end*/
+
+/*hongkong team page start*/
+#competition{
+    padding-bottom: 80px;
+}
+#competition .col-md-6{  
+    border: 1px solid black;
+    background-color: rgb(206, 226, 255);
+}
+/*hongkong team page END*/
+/*train-class team page start*/
+#train-class{
+    padding-bottom: 80px;  
+}
+/*train-class team page END*/
+/*coach-class   team page start*/
+#coach-class .col-md-6{  
+    border: 1px solid black;
+    background-color: rgb(206, 226, 255);
+}
+#coach-class{
+    padding-bottom: 80px;  
+}
+/*equipmen page start*/
+#equipment{
+      padding-bottom: 80px;  
+}
+#equipment .col-md-6, #equipment .col-md-12{  
+    border: 1px solid black;
+    background-color: rgb(206, 226, 255);
+}
+#Cooperating-institutions{
+        padding-bottom: 80px;  
+}
+/*Sponsors  page start*/
+#sponsors{
+      padding-bottom: 80px;  
+}
+#sponsors #title h1{
+  padding-bottom: 120px;  
+}
+#sponsors .col-md-6{  
+    border: 1px solid black;
+    background-color: rgb(206, 226, 255);
+}
+#sponsors .next-table{
+    padding-top: 120px;  
+}
+#sponsors{
+        padding-bottom: 80px;  
+}
