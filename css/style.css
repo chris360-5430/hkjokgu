@@ -250,9 +250,8 @@ width: 90%
     padding: 20px; 
 }
 #contact-us h2{
-  position: absolute;
+  position: relative;
   font-size: 85px;
-  font-weight: 1000;
   font-weight: bold;
   color: rgb(214, 177, 13);
   line-height: 1000px;
