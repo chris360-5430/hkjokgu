@@ -68,7 +68,7 @@ p,a ,input,label,textarea,span,ul,li{
 #intro .carousel-caption {
     position: absolute; /* 使標題在覆蓋層之上 */
     z-index: 2; /* 確保標題在覆蓋層之上 */
-    top: 680px;
+    top: 0%;
 }
 
 
@@ -257,6 +257,7 @@ width: 90%
     padding: 20px; 
 }
 #contact-us h2{
+  position: relative;
   position: relative;
   font-size: 85px;
   font-weight: bold;
